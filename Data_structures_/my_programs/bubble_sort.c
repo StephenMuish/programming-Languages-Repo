@@ -24,12 +24,9 @@ printf("Index %d : %d\n", i+1, nums[i]);
 
 }
 
-//reserve the value of size to use later as it will be affected the the array bellow
-
-retain=size;
 
 //sorting the entered array.
-for(i=0;i<size;i++){
+for(i=0;i<size-1;i++){
 for(j=1;j<size;j++){
 
 if(nums[j-1]>nums[j]){
@@ -39,13 +36,11 @@ nums[j-1]=nums[j];
 nums[j]=swap;
 }
 }
-size =size -1;
-printf("The size : %d\n", size);
 }
 
 //print array after sorting
 printf("Array after sorting.\n");
-for(i=0;i<retain;i++){
+for(i=0;i<size;i++){
 printf("Index %d : %d\n", i+1, nums[i]);
 }
 

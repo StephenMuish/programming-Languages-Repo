@@ -1,7 +1,6 @@
 
 
 #include <stdio.h>
-//#include <conio.h>
 
 int main(){
 int n,numbers[25],data,i,flag=0;

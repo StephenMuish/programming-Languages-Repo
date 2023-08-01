@@ -8,7 +8,7 @@ int n,numbers[25],data,i,flag=0;
 printf("Enter the number of elements\n");
 scanf("%d",&n);
 
-printf("Enter the elements");
+printf("Enter the elements\n");
 for(i=0;i<n;i++)
 {
 scanf("%d",&numbers[i]);
